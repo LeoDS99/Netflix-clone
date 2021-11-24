@@ -56,9 +56,35 @@
       }
       .cascata:hover .contenuto{
         display: inline-block;
-
       }
-
+      .titolo-iscrizione {
+        text-align: center; 
+      }
+      .iscrizione {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 14px 0 0 0;
+      }
+      .input-email {
+        display: inline-block;
+        height: 60px;
+        width: 450px;
+        border: 1px #8c8c8c solid;
+        margin-left: 80px;
+      }
+      .bottone-iscrizione {
+        display: inline-block;
+        position: absolute;
+        background-color: red;
+        color: white;
+        height: 64px;
+        width: 130px;
+        border: none;
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
     </style>
   </head>
   <body>
@@ -102,6 +128,13 @@
           L'area Netflix Bambini, già inclusa nell'abbonamento, offre ai genitori un maggiore controllo sui contenuti e ai più piccoli uno spazio dedicato dove guardare serie TV e film per tutta la famiglia.
           I profili Bambini hanno un filtro famiglia con PIN che ti permette di limitare l'accesso ai contenuti in base alla fascia d'età e bloccare la visione di titoli specifici.
         </div>
+      </div>
+      <div class="iscrizione">
+        <form action="#" method="get">
+          <h3 class="titolo-iscrizione">Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo abbonamento.</h3>
+          <input type="email" id="input-id" class="input-email" placeholder="Indirizzo email">
+          <button class="bottone-iscrizione">Inizia ></button>
+        </form>
       </div>
     </div>
   </body>
