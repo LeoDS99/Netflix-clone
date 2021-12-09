@@ -1,79 +1,360 @@
-body {
-    background-color: black;
-    color: white;
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body{
+  background-color: black;
+}
+
+
+.setBg {
+  background-image: url(Img/background.jpg);
+  color: white;
+  height: 100vh;
+}
+
+.centerText {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 5vh;
+}
+
+.centerText p {
+  font-size: 3vh;
+}
+
+.centerText input {
+  text-align: start;
+  height: 8vh;
+  width: 50vh;
+}
+.centerText button {
+  margin-right: 0;
+  height: 65.64px;
+  width: 15vh;
+  font-size: 4vh;
+  color: white;
+  background-color: red;
+}
+
+/* NAVBAR */
+
+.container .navbar{
+    height: 100px;
     display: flex;
+}
+
+.container .navbar .sinistra{
+    height: 100%;
+    display: flex;
+    float: left;
+}
+
+.container .navbar .sinistra img{
+    width: 140px;
+    position: absolute;
+    top: 6%;
+    left: 0;
+    transform: translate(40% , -50%);
+}
+
+.container .navbar .destra{
+    display: flex;
+    height: 100px;
+    float: right;
+    position: absolute;
+    right: 50px;
+}
+
+.container .navbar .destra .language{
+     margin: auto;
+     align-items: center;
+     justify-content: center;
+     font-size: 18px;
+     padding: 7px 10px;
+     color: white;
+     background: none;
+     cursor: pointer;
+     margin-right: 15px; 
+}
+
+.container .navbar .destra .language option{
+    background-color: grey;
+}
+
+.container .navbar .destra button{
+    margin: auto;
+    align-items: center;
     justify-content: center;
-  }
-  .titolo-domande{
-    display: block;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-  }
-  .domande {
-    display: inline-block;
-    margin: 52px 222px 52px 222px;
-    max-width: 815px;
-  }
-  .cascata {
-    background-color: #303030;
-    color: white;
-    height: 74px;
-    width: 815px;
-    font-size: 26px;
-    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 7px 17px;
+    background: #e50914;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
     border: none;
-    margin: 0 0 8px 0;
-    display: inline-block;
-    position: relative;
-  }
-  .bottone-domande {
-    background-color: #303030;
+}
+
+.container .navbar .destra button a{
+    text-decoration: none;
     color: white;
-    height: 74px;
-    width: 815px;
-    font-size: 26px;
-    text-align: left;
-    border: none;
-    padding-left: 30px;
+}
+
+/* SECTION CARDS */
+  
+.card1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 7px 5px;
+    border-top: 7px solid rgb(51, 50, 50);
+    border-bottom: 7px solid rgb(51, 50, 50);
+  }
+  
+  .card1 .whatch{
+  width: 40%;
+  }
+  
+  .card1 .whatch h2{
+        font-size: 47px;
+        letter-spacing: 1px;
+        color: white;
+  }
+  
+  .card1 .whatch p{
+  font-size: 27px;
+  color: white;
+  }
+  
+  .card1 .tv{
+    width: 30%;
+  }
+  
+  .card1 .tv img{
+    width: 100%;
+  }
+  
+  .card2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  padding: 3px 5px;
+  border-bottom: 7px solid rgb(51, 50, 50);
+  }
+  
+  .card2 .offline{
+  width: 27%;
+  }
+  
+  .card2 .offline img{
+  width: 100%;
+  }
+  
+  .card2 .download{
+  width: 40%;
+  }
+  
+  .card2 .download h2{
+      font-size: 47px;
+      letter-spacing: 1px;
+      color: white;
+  }
+  
+  .card2 .download p{
+  font-size: 27px;
+  color: white;
+  }
+  
+  .card3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  padding: 3px 5px;
+  border-bottom: 7px solid rgb(51, 50, 50);
+  }
+  
+  .card3 .devices{
+  width: 40%;
+  }
+  
+  .card3 .devices h2{
+      font-size: 47px;
+      letter-spacing: 1px;
+      color: white;
+  }
+  
+  .card3 .devices p{
+  font-size: 27px;
+  color: white;
+  }
+  
+  .card3 .dispositivi{
+  width: 25%;
+  }
+  
+  .card3 .dispositivi img{
+  width: 100%;
+  }
+  
+  .card4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  padding: 3px 5px;
+  border-bottom: 7px solid rgb(51, 50, 50);
+  }
+  
+  .card4 .bimbi{
+  width: 27%;
+  }
+  
+  .card4 .bimbi img{
+  width: 100%;
+  }
+  
+  .card4 .children{
+  width: 40%;
+  }
+  
+  .card4 .children h2{
+      font-size: 47px;
+      letter-spacing: 1px;
+      color: white;
+  }
+  
+  .card4 .children p{
+  font-size: 27px;
+  color: white;
+  }
+
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    padding: 70px 286px 0 286px;
+    margin: 0;
+    display: flex;
+    height: fit-content;
+}
+
+ul {
+    margin: 0;
+    padding:0;
+}
+
+.f-container {
+   margin: 0 auto;
+   width: 65%;
+   align-items: center;
+   justify-content: center;  
+   padding-bottom: 20px;
+}
+
+.f-container > p {
+    color: #757575;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+footer > p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+footer p a {
+    color: gray;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    width: 90%;
     position: relative;
-    display: inline-block;
-  }
-  .contenuto {
-    display: none;
-    position: relative;
-    background-color: #303030;
-    padding: 2%;
-    margin-top: 1px;
-  }
-  .cascata:hover .contenuto{
-    display: inline-block;
-  }
-  .titolo-iscrizione {
-    text-align: center; 
-  }
-  .iscrizione {
+}
+
+.f-links:first-child {
+    margin-bottom: 16px;
+}
+
+.footer-links ul li {
+    margin-bottom: 16px;
+    padding-right: 12px;
+}
+
+.footer-links ul li a {
+    color: #757575;
+    text-decoration: none;
+    font-size: 13px;
+    flex-grow: 1;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.language {
+    width: fit-content;
+    min-width: 15%;
+    border: solid 0.3px #757575;
+    border-radius: 1px;
+    padding: 17px 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 14px 0 0 0;
-  }
-  .input-email {
-    display: inline-block;
-    height: 60px;
-    width: 450px;
-    border: 1px #8c8c8c solid;
-    margin-left: 80px;
-  }
-  .bottone-iscrizione {
-    display: inline-block;
-    position: absolute;
-    background-color: red;
-    color: white;
-    height: 64px;
-    width: 130px;
+}
+
+.language select {
     border: none;
-    font-size: 26px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+    font-size: 100%;
+    background-color: black;
+    color: #757575;
+    margin-right: 5px;
+}
+
+.language span {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.w-icon {
+    color: #757575;
+    font-size: 100%;
+}
+
+.copyright {
+    color: #757575;
+    margin-top: 24px;
+    margin-bottom: 13px;
+    font-size: 13px;
+}
