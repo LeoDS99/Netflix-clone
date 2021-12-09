@@ -256,7 +256,7 @@ ul {
 
 .f-container {
    margin: 0 auto;
-   width: 65%;
+   width: 100%;
    align-items: center;
    justify-content: center;  
    padding-bottom: 20px;
@@ -295,7 +295,7 @@ footer ul li{
     display: flex;
     justify-content: space-between;
     flex-basis: 100%;
-    width: 90%;
+    width: 100%;
     position: relative;
 }
 
