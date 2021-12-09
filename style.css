@@ -39,142 +39,6 @@ body{
   background-color: red;
 }
 
-<<<<<<< HEAD
-/* SECTION CARDS */
-  
-.card1{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  background-color: black;
-  padding: 7px 5px;
-  border-top: 7px solid rgb(51, 50, 50);
-  border-bottom: 7px solid rgb(51, 50, 50);
-}
-
-.card1 .whatch{
-width: 40%;
-}
-
-.card1 .whatch h2{
-      font-size: 47px;
-      letter-spacing: 1px;
-      color: white;
-}
-
-.card1 .whatch p{
-font-size: 27px;
-color: white;
-}
-
-.card1 .tv{
-  width: 30%;
-}
-
-.card1 .tv img{
-  width: 100%;
-}
-
-.card2{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-background-color: black;
-padding: 3px 5px;
-border-bottom: 7px solid rgb(51, 50, 50);
-}
-
-.card2 .offline{
-width: 27%;
-}
-
-.card2 .offline img{
-width: 100%;
-}
-
-.card2 .download{
-width: 40%;
-}
-
-.card2 .download h2{
-    font-size: 47px;
-    letter-spacing: 1px;
-    color: white;
-}
-
-.card2 .download p{
-font-size: 27px;
-color: white;
-}
-
-.card3{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-background-color: black;
-padding: 3px 5px;
-border-bottom: 7px solid rgb(51, 50, 50);
-}
-
-.card3 .devices{
-width: 40%;
-}
-
-.card3 .devices h2{
-    font-size: 47px;
-    letter-spacing: 1px;
-    color: white;
-}
-
-.card3 .devices p{
-font-size: 27px;
-color: white;
-}
-
-.card3 .dispositivi{
-width: 25%;
-}
-
-.card3 .dispositivi img{
-width: 100%;
-}
-
-.card4{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-background-color: black;
-padding: 3px 5px;
-border-bottom: 7px solid rgb(51, 50, 50);
-}
-
-.card4 .bimbi{
-width: 27%;
-}
-
-.card4 .bimbi img{
-width: 100%;
-}
-
-.card4 .children{
-width: 40%;
-}
-
-.card4 .children h2{
-    font-size: 47px;
-    letter-spacing: 1px;
-    color: white;
-}
-
-.card4 .children p{
-font-size: 27px;
-color: white;
-}
-=======
 /* NAVBAR */
 
 .container .navbar{
@@ -238,7 +102,142 @@ color: white;
     text-decoration: none;
     color: white;
 }
->>>>>>> 99ce2baf3e567a9ff0a68c022d723b09a7c3b9af
+
+/* SECTION CARDS */
+  
+.card1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 7px 5px;
+    border-top: 7px solid rgb(51, 50, 50);
+    border-bottom: 7px solid rgb(51, 50, 50);
+  }
+  
+  .card1 .whatch{
+  width: 40%;
+  }
+  
+  .card1 .whatch h2{
+        font-size: 47px;
+        letter-spacing: 1px;
+        color: white;
+  }
+  
+  .card1 .whatch p{
+  font-size: 27px;
+  color: white;
+  }
+  
+  .card1 .tv{
+    width: 30%;
+  }
+  
+  .card1 .tv img{
+    width: 100%;
+  }
+  
+  .card2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  padding: 3px 5px;
+  border-bottom: 7px solid rgb(51, 50, 50);
+  }
+  
+  .card2 .offline{
+  width: 27%;
+  }
+  
+  .card2 .offline img{
+  width: 100%;
+  }
+  
+  .card2 .download{
+  width: 40%;
+  }
+  
+  .card2 .download h2{
+      font-size: 47px;
+      letter-spacing: 1px;
+      color: white;
+  }
+  
+  .card2 .download p{
+  font-size: 27px;
+  color: white;
+  }
+  
+  .card3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  padding: 3px 5px;
+  border-bottom: 7px solid rgb(51, 50, 50);
+  }
+  
+  .card3 .devices{
+  width: 40%;
+  }
+  
+  .card3 .devices h2{
+      font-size: 47px;
+      letter-spacing: 1px;
+      color: white;
+  }
+  
+  .card3 .devices p{
+  font-size: 27px;
+  color: white;
+  }
+  
+  .card3 .dispositivi{
+  width: 25%;
+  }
+  
+  .card3 .dispositivi img{
+  width: 100%;
+  }
+  
+  .card4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  padding: 3px 5px;
+  border-bottom: 7px solid rgb(51, 50, 50);
+  }
+  
+  .card4 .bimbi{
+  width: 27%;
+  }
+  
+  .card4 .bimbi img{
+  width: 100%;
+  }
+  
+  .card4 .children{
+  width: 40%;
+  }
+  
+  .card4 .children h2{
+      font-size: 47px;
+      letter-spacing: 1px;
+      color: white;
+  }
+  
+  .card4 .children p{
+  font-size: 27px;
+  color: white;
+  }
+
 
 /* FOOTER */
 
