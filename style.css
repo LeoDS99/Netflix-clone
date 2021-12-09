@@ -1,10 +1,45 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+.setBg {
+  background-image: url(Img/background.jpg);
+  color: white;
+  height: 100vh;
+}
+
+.centerText {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 5vh;
+}
+
+.centerText p {
+  font-size: 3vh;
+}
+
+.centerText input {
+  text-align: start;
+  height: 8vh;
+  width: 50vh;
+}
+.centerText button {
+  margin-right: 0;
+  height: 65.64px;
+  width: 15vh;
+  font-size: 4vh;
+  color: white;
+  background-color: red;
+}
+
+
 /* FOOTER */
 
 footer {
     background-color: black;
     padding: 70px 286px 0 286px;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     height: fit-content;
 }
@@ -118,7 +153,3 @@ footer ul li{
     margin-bottom: 13px;
     font-size: 13px;
 }
-
-
-
-
