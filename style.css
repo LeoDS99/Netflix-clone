@@ -1,3 +1,41 @@
+*{
+  font-family: "Roboto", sans-serif;
+}
+
+.setBg{
+  background-image: url(Img/background.jpg);
+  color: white;
+  height: 100vh;
+}
+
+.centerText{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 5vh;
+}
+
+.centerText p{
+  font-size: 3vh;
+}
+
+.centerText input{
+  text-align: start;
+  height: 8vh;
+  width: 50vh;
+}
+.centerText button{
+  margin-right: 0;
+  height: 65.64px;
+  width: 15vh;
+  font-size: 4vh;
+  color: white;
+  background-color: red;
+}
+
+/* NAVBAR */
+
 .container .navbar{
     height: 100px;
     display: flex;
@@ -58,4 +96,125 @@
 .container .navbar .destra button a{
     text-decoration: none;
     color: white;
+}
+  
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    padding: 70px 286px 0 286px;
+    margin: 0;
+    display: flex;
+    height: fit-content;
+}
+
+ul{
+    margin: 0;
+    padding:0;
+}
+
+.f-container{
+   margin: 0 auto;
+   width: 65%;
+   align-items: center;
+   justify-content: center;  
+   padding-bottom: 20px;
+}
+
+.f-container > p{
+    color: #757575;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+footer > p{
+    margin-bottom: 30px;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+footer p a{
+    color: gray;
+    text-decoration: none;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    width: 90%;
+    position: relative;
+}
+
+.f-links:first-child{
+    margin-bottom: 16px;
+}
+
+.footer-links ul li{
+    margin-bottom: 16px;
+    padding-right: 12px;
+}
+
+.footer-links ul li a{
+    color: #757575;
+    text-decoration: none;
+    font-size: 13px;
+    flex-grow: 1;
+}
+
+.footer-links ul li a:hover{
+    text-decoration: underline;
+}
+
+.language{
+    width: fit-content;
+    min-width: 15%;
+    border: solid 0.3px #757575;
+    border-radius: 1px;
+    padding: 17px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language select{
+    border: none;
+    font-size: 100%;
+    background-color: black;
+    color: #757575;
+    margin-right: 5px;
+}
+
+.language span{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.w-icon{
+    color: #757575;
+    font-size: 100%;
+}
+
+.copyright{
+    color: #757575;
+    margin-top: 24px;
+    margin-bottom: 13px;
+    font-size: 13px;
 }
