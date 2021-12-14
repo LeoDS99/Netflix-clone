@@ -267,6 +267,69 @@ body{
   color: white;
   }
 
+  @media screen and (max-width:992px) {
+    .card1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top: 7px solid rgb(51, 50, 50);
+        border-bottom: 7px solid rgb(51, 50, 50);
+      }
+      
+      .card1 .whatch{
+        width: 70%;
+      }
+       
+      .card1 .tv{
+        width: 70%;
+      }
+      
+      .card2{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 7px solid rgb(51, 50, 50);
+        }
+        
+        .card2 .offline{
+        width: 70%;
+        }
+         
+        .card2 .download{
+        width: 70%;
+        }
+
+    .card3{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 7px solid rgb(51, 50, 50);
+    }
+    
+    .card3 .devices{
+    width: 70%;
+    }
+    
+    .card3 .dispositivi{
+    width: 70%;
+    }
+    
+    .card4{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 7px solid rgb(51, 50, 50);
+        }
+        
+        .card4 .bimbi{
+        width: 70%;
+        }
+        
+        .card4 .children{
+        width: 70%;
+        }
+        
+      }
 
 /* FOOTER */
 
