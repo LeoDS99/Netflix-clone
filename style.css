@@ -106,7 +106,7 @@ body{
      color: white;
      background: none;
      cursor: pointer;
-     margin-right: 15px; 
+     margin-right: 15px;
 }
 
 .container .navbar .destra .language option{
@@ -133,7 +133,7 @@ body{
 }
 
 /* SECTION CARDS */
-  
+
 .card1{
     display: flex;
     flex-direction: row;
@@ -144,30 +144,30 @@ body{
     border-top: 7px solid rgb(51, 50, 50);
     border-bottom: 7px solid rgb(51, 50, 50);
   }
-  
+
   .card1 .whatch{
   width: 40%;
   }
-  
+
   .card1 .whatch h2{
         font-size: 47px;
         letter-spacing: 1px;
         color: white;
   }
-  
+
   .card1 .whatch p{
   font-size: 27px;
   color: white;
   }
-  
+
   .card1 .tv{
     width: 30%;
   }
-  
+
   .card1 .tv img{
     width: 100%;
   }
-  
+
   .card2{
   display: flex;
   flex-direction: row;
@@ -177,30 +177,30 @@ body{
   padding: 3px 5px;
   border-bottom: 7px solid rgb(51, 50, 50);
   }
-  
+
   .card2 .offline{
   width: 27%;
   }
-  
+
   .card2 .offline img{
   width: 100%;
   }
-  
+
   .card2 .download{
   width: 40%;
   }
-  
+
   .card2 .download h2{
       font-size: 47px;
       letter-spacing: 1px;
       color: white;
   }
-  
+
   .card2 .download p{
   font-size: 27px;
   color: white;
   }
-  
+
   .card3{
   display: flex;
   flex-direction: row;
@@ -210,30 +210,30 @@ body{
   padding: 3px 5px;
   border-bottom: 7px solid rgb(51, 50, 50);
   }
-  
+
   .card3 .devices{
   width: 40%;
   }
-  
+
   .card3 .devices h2{
       font-size: 47px;
       letter-spacing: 1px;
       color: white;
   }
-  
+
   .card3 .devices p{
   font-size: 27px;
   color: white;
   }
-  
+
   .card3 .dispositivi{
   width: 25%;
   }
-  
+
   .card3 .dispositivi img{
   width: 100%;
   }
-  
+
   .card4{
   display: flex;
   flex-direction: row;
@@ -243,25 +243,25 @@ body{
   padding: 3px 5px;
   border-bottom: 7px solid rgb(51, 50, 50);
   }
-  
+
   .card4 .bimbi{
   width: 27%;
   }
-  
+
   .card4 .bimbi img{
   width: 100%;
   }
-  
+
   .card4 .children{
   width: 40%;
   }
-  
+
   .card4 .children h2{
       font-size: 47px;
       letter-spacing: 1px;
       color: white;
   }
-  
+
   .card4 .children p{
   font-size: 27px;
   color: white;
@@ -348,9 +348,9 @@ ul {
 
 .f-container {
    margin: 0 auto;
-   width: 65%;
+   width: 100%;
    align-items: center;
-   justify-content: center;  
+   justify-content: center;
    padding-bottom: 20px;
 }
 
@@ -391,7 +391,7 @@ footer ul li{
     position: relative;
 }
 
-.f-links:first-child {
+.f-links{
     margin-bottom: 16px;
 }
 
@@ -449,4 +449,42 @@ footer ul li{
     margin-top: 24px;
     margin-bottom: 13px;
     font-size: 13px;
+}
+
+@media all and (max-width: 375px) {
+    footer {
+        max-width: 100vw;
+        padding: 50px 19px 0 19px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .f-container {
+        margin: 0 17px;
+        margin-left: 0;
+    }
+
+    .footer-links {
+        display: grid;
+        grid-template-columns: repeat(2, 45vw);
+        grid-template-rows: repeat(2, auto);
+        align-items: flex-start;
+        justify-items: start;
+        grid-template-areas: "one two"
+                            "three four";
+        margin-right: 0;
+    }
+
+    .media-1 {
+        grid-area: one;
+    }
+
+    .media-2 {
+        grid-area: two;
+    }
+
+
+    .language {
+        margin-top: 10px;
+    }
 }
