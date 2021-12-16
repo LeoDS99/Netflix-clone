@@ -9,7 +9,7 @@ body {
 .setBg {
   background-image: url(Img/background.jpg);
   color: white;
-  height: 100vh;
+  height: 115vh;
 }
 
 .centerText {
@@ -19,6 +19,7 @@ body {
   flex-direction: column;
   text-align: center;
   font-size: 5vh;
+  background-size: cover;
 }
 
 .centerText p {
