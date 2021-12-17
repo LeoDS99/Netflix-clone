@@ -4,61 +4,91 @@ body {
     display: flex;
     justify-content: center;
   }
+  /*div domande frequenti */
+  .domande-frequenti {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 800px;
+    margin: auto;
+  }
+  /* titolo domande */
   .titolo-domande{
     display: block;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
   }
-  .domande {
-    display: inline-block;
-    margin: 52px 222px 52px 222px;
-    max-width: 815px;
-  }
-  .cascata {
-    background-color: #303030;
-    color: white;
-    height: 74px;
-    width: 815px;
-    font-size: 26px;
-    text-align: left;
-    border: none;
-    margin: 0 0 8px 0;
-    display: inline-block;
-    position: relative;
-  }
-  .bottone-domande {
-    background-color: #303030;
-    color: white;
-    height: 74px;
-    width: 815px;
-    font-size: 26px;
-    text-align: left;
-    border: none;
-    padding-left: 30px;
-    position: relative;
-    display: inline-block;
-  }
-  .contenuto {
+  /* checkbox */
+  #toggle-button-1,
+  #toggle-button-2,
+  #toggle-button-3,
+  #toggle-button-4,
+  #toggle-button-5,
+  #toggle-button-6 {
     display: none;
-    position: relative;
-    background-color: #303030;
-    padding: 2%;
-    margin-top: 1px;
   }
-  .cascata:hover .contenuto{
+  /* label for checkbox */
+  .button-question{
+    background-color: #303030;
+    height: 75px;
+    margin-top: 4px;
+  }
+  /* text label */
+  .questions {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  /* + elements */
+  .plus-element {
+    display: inline-block;
+    margin-right: 10px;
+    float: right;
+  }
+  /* div content expandable */
+  #content-expandable-1,
+  #content-expandable-2,
+  #content-expandable-3,
+  #content-expandable-4,
+  #content-expandable-5,
+  #content-expandable-6 {
+    display: none;
+    background-color: #303030;
+    color: white;
+    margin: 1px 0 1px 0;
+  }
+  /* action (checked) to expand the div content expandable */
+  #toggle-button-1:checked ~ #content-expandable-1 {
     display: inline-block;
   }
-  .titolo-iscrizione {
-    text-align: center; 
+  #toggle-button-2:checked ~ #content-expandable-2 {
+    display: inline-block;
   }
+  #toggle-button-3:checked ~ #content-expandable-3 {
+    display: inline-block;
+  }
+  #toggle-button-4:checked ~ #content-expandable-4 {
+    display: inline-block;
+  }
+  #toggle-button-5:checked ~ #content-expandable-5 {
+    display: inline-block;
+  }
+  #toggle-button-6:checked ~ #content-expandable-6 {
+    display: inline-block;
+  }
+  /* form iscrizione */
   .iscrizione {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 14px 0 0 0;
+    margin: 1%;
   }
+  .titolo-iscrizione {
+    text-align: center;
+  }
+
   .input-email {
     display: inline-block;
     height: 60px;
