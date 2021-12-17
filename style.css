@@ -41,9 +41,12 @@ body {
   }
   /* + elements */
   .plus-element {
-    display: inline-block;
+    display: flex;
     margin-right: 10px;
     float: right;
+  }
+  .answer {
+    margin: 4px 4px 4px 4px;
   }
   /* div content expandable */
   #content-expandable-1,
@@ -83,7 +86,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 14px 0 0 0;
-    margin: 1%;
+    margin: 5% auto;
   }
   .titolo-iscrizione {
     text-align: center;
