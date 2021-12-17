@@ -12,6 +12,15 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
       rel="stylesheet"
     />
+    <script type="text/javascript">
+      function onlyOne(checkbox) {
+        var checkboxes = document.getElementsByName('radio')
+        checkboxes.forEach((item) => {
+          if (item !== checkbox) item.checked = false
+        })
+      }
+
+    </script>
   </head>
   <body>
 
